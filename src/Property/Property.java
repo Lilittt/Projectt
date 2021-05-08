@@ -64,6 +64,10 @@ public class Property implements Comparable<Property> {
 
     @Override
     public int compareTo(Property o) {
+        if (price > o.price)
+            return 1;
+        if (price < o.price)
+            return -1;
         return 0;
     }
 }
