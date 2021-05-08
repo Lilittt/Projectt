@@ -11,7 +11,7 @@ import java.util.StringJoiner;
 public class PropertyService {
     public static Property createProperty() {
         Scanner s = new Scanner(System.in);
-        //city,price,owner.name,owner.surname,owner.age,isRenovated
+        
         System.out.println("Enter city: ");
         String city = s.next();
 
